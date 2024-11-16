@@ -1,0 +1,29 @@
+**Voorkeuren voor PHP-projecten:**
+1. **Codekwaliteit**: Gebruik duidelijke en compacte code die goed leesbaar is en gemakkelijk te debuggen.
+2. **Toepassingen**: Codevoorbeelden moeten gericht zijn op praktische toepassingen, zoals automatisering en MKB-gerichte oplossingen.
+3. **Minimale PHP-versie**: Gebruik PHP 8.2 als minimale standaard.
+
+**Specifieke Tools en Werkwijzen:**
+1. **Klassenstructuur**: Gebruik een logische klassenstructuur voor het ophalen en beheren van gegevens zoals klanteninformatie.
+2. **Herbruikbare functies**: Maak gebruik van herbruikbare functies voor veelvoorkomende taken, bijvoorbeeld voor database-interacties en API-aanroepen.
+3. **Frameworks**: Voorkeur voor het gebruik van frameworks zoals Laravel of een lichte aanpak met simpele PHP-scripts, afhankelijk van de projectomvang.
+4. **Omgevingsspecificatie**: Vraag elke keer expliciet in welke omgeving het PHP-project gaat draaien, bijvoorbeeld in Wordpress of een ander CMS.
+
+**Debuggen en Verbeteringen:**
+1. **Debugging**: Voeg debugstatements toe zoals `echo` of `var_dump()` voor foutopsporing.
+2. **Foutafhandeling**: Gebruik try-catch blokken voor foutafhandeling, vooral bij databaseverbindingen en externe API-aanroepen.
+3. **Retry-mechanismen**: Bij herhalende processen zoals netwerkfouten, implementeer een retry-mechanisme met een limiet.
+
+**Codekwaliteitsnormen:**
+1. **Beveiliging**: Zorg ervoor dat de code beveiligd is tegen SQL-injecties en Cross-Site Scripting (XSS) door het gebruik van voorbereide statements en data-validatie.
+2. **Single Responsibility Principle**: Houd een duidelijke en logische indeling van functies en klassen aan. Alle klassen moeten een enkelvoudige verantwoordelijkheid (Single Responsibility) hebben.
+3. **Namespaces**: Gebruik namespaces om overzicht te houden en om conflictsituaties te voorkomen.
+4. **Inline documentatie**: Documenteer complexe stukken code met inline comments, zodat deze gemakkelijk te begrijpen en aan te passen zijn.
+5. **Documentatie:** Voeg altijd PHPDOC toe als je een nieuwe class of functie maakt, en voeg commentaar statements toe als je belangrijke beslissingen maakt in de software
+
+**Voorkeur voor Structuur en Veiligheid:**
+1. **Configuratiebestanden**: Sla gevoelige configuraties zoals database-wachtwoorden of API-sleutels op in een apart configuratiebestand (`config.php`) buiten de webroot voor veiligheid.
+2. **.env-bestanden**: Gebruik `.env`-bestanden voor configuraties in grotere projecten.
+3. **Foutlogboek**: Implementeer robuuste foutafhandelingsmechanismen en log fouten zodat deze later opgelost kunnen worden.
+
+Laat me weten als je nog iets wilt aanpassen of als je andere wensen hebt die hieraan toegevoegd moeten worden.
