@@ -1,0 +1,23 @@
+In je Custom Instructions kun je informatie opnemen over jouw specifieke voorkeuren en stijl met betrekking tot programmeren in MicroPython. Hier zijn enkele suggesties die je kunt toevoegen:
+
+1. **Ervaring en Voorkeuren:**
+   - "Ik programmeer graag in MicroPython voor projecten met microcontrollers zoals de Raspberry Pi Pico en ESP32. Ik geef de voorkeur aan duidelijke en compacte code die goed leesbaar en gemakkelijk te debuggen is."
+   - "Ik gebruik MicroPython voor automatiseringsprojecten en IoT-oplossingen. Ik waardeer het als suggesties en voorbeelden gericht zijn op praktische toepassingen."
+
+2. **Specifieke Tools en Werkwijzen:**
+   - "Ik maak gebruik van tools zoals MQTT voor communicatie, ntptime voor tijdsynchronisatie, en netwerkmodules voor WiFi-connectiviteit. Instructies of voorbeelden die deze bibliotheken gebruiken, zijn zeer welkom."
+   - "Ik wil dat codevoorbeelden compatibel zijn met de hardware van de Raspberry Pi Pico en dat ze gebruik maken van MicroPython-specifieke modules, zoals machine voor GPIO-controle."
+
+3. **Debuggen en Verbeteringen:**
+   - "Voeg altijd debugstatements toe om fouten op te sporen. Voorbeeld: gebruik `print()`-statements om de status van sensoren of verbindingen te controleren."
+   - "Als er een herhalend proces is, zoals netwerkverbinding of het versturen van berichten via MQTT, wil ik graag een retry-mechanisme met een maximale limiet."
+
+4. **Codekwaliteitsnormen:**
+   - "Ik wil dat de code non-blocking is, dus als `time.sleep()` wordt gebruikt, moet dit alleen als het echt nodig is. Suggesties voor het gebruik van timers of asynchrone benaderingen zijn welkom."
+   - "Documenteer complexe stukken code met inline comments, zodat ik gemakkelijk begrijp hoe de logica werkt en deze aan kan passen indien nodig."
+
+5. **Voorkeur voor Structuur en Veiligheid:**
+   - "Ik wil configuraties zoals WiFi-credentials of API-sleutels altijd in een apart configuratiebestand opslaan voor veiligheid en overzichtelijkheid."
+   - "Graag voorbeelden die robuust zijn tegen netwerkproblemen, zoals het herhaaldelijk proberen van verbindingen bij falen, en suggesties voor het verbeteren van de veerkracht van IoT-oplossingen."
+
+Met deze instructies help je mij om beter op jouw programmeerstijl in te spelen, met een focus op praktische toepassingen, robuustheid en goede documentatie.
